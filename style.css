@@ -1,0 +1,249 @@
+body{
+    background-color:#121212;
+}
+
+nav{
+    background-color:#1f1f1f ;
+    position: sticky;
+    top: 0;
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    box-shadow: 0 0 12px rgba(41, 222, 161, 0.477);
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.div0{
+    margin-left: 50px;
+    justify-content: center;
+
+}
+.div1{
+    display: inline-block;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    color: wheat;
+    box-shadow:0px 0px 12px rgb(22, 159, 209);  
+    transition: transform 0.3s; 
+}
+#home{
+    scroll-margin-top: 60px;
+}
+#games{
+    scroll-margin-top: 70px;
+    margin-top: 130px;
+}
+
+#contact{
+    scroll-margin-top: 100px;
+   }
+
+#rules{
+    scroll-margin-top: 100px;
+   }
+
+#leaderboard{
+    scroll-margin-top: 100px;
+   }
+
+#highlights{
+    scroll-margin-top: 70px;  
+   }
+
+#about{
+    scroll-margin-top: 60px;
+    margin-top: 130px;
+   }
+
+.div1:hover{
+    transform: scale(1.03);
+}  
+
+img{
+    border-style: inset;
+}
+
+h1{
+    font-size:35px;
+    color:rgb(0,250,154);
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+ul,li{
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+li{
+     background-color: #1f1f1f;
+    text-align: center;
+     box-shadow: 0 0 12px rgba(0,255,170,0.1);
+
+}
+
+table
+{
+    margin: 100px;
+    border:2px solid whitesmoke;
+    color: whitesmoke;
+    border-collapse: collapse;
+    width: 60%;
+
+} 
+.tab
+{
+    justify-items: center;
+}
+
+th,td{
+    border: 2px solid whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+form {
+      display: inline-block;
+      width: 400px;
+      height: 500px;
+    }
+    input, textarea {
+      display: block;
+      width: 400px;
+      margin-bottom: 10px;
+      padding: 10px;
+      background: rgb(44, 44, 44);
+      color: rgb(255, 255, 255);
+      border: none;
+    }
+    button {
+      padding: 10px 20px;
+      background: rgb(76, 175, 80);
+      border: none;
+      color: white;
+    
+    }
+    .cont{
+        justify-self: center;
+    }
+   .vid{
+    display: flex;
+    justify-content: center;
+   }
+  
+   
+   .na:hover{
+    color:burlywood;    
+   }
+   p{
+    color: whitesmoke;
+   }
+   .divab{
+    background-color:#1f1f1f;
+    width: 700px;
+    height: auto;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0,255,170,0.1);
+   }
+   .divpic{
+    display: inline-block;
+    margin: 50px;
+    background-color: rgb(36, 46, 46);
+    border-radius: 10px;
+}
+   strong{
+    color:rgb(0,250,154)
+}
+   .aboutimg{
+    margin-left: 55px;
+   }
+   .abouttxt{
+    color: white;
+    text-align: center;
+   }
+   h3{
+    color:white;
+    text-align:center;
+   }
+   .imgab{
+    background-color:#1f1f1f;
+    width: 700px;
+    height: auto;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0,255,170,0.1);
+   }
+   footer{
+     text-align: center;
+      color: #ffffff;
+      padding: 20px;
+      font-size: 14px;
+      border-top: 1px solid #333;
+   }
+   .cont{
+    width:700px;
+    box-shadow: 0 0 12px rgba(0,255,170,0.1);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 350px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+   }
+   .subbut{
+    margin-left: 175px;
+   }
+   .vid{
+    display: inline-block;
+    margin: 20px;
+    height: 100px;
+   }
+   .allvid{
+    margin-left: 30px;
+   }
+    .bg{
+        object-fit: cover;
+        position: relative;
+        display: inline-block;
+    }
+    .bgvid{
+        width:100%;
+        filter: brightness(0.4) contrast(1.2);
+        border: ridge rgb(69, 188, 188);
+    }
+
+.but {
+  position: absolute;
+  top: 55%;
+  left: 42.5%;
+  color: black;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgba(0, 250, 112, 0.922);
+  border: 3px solid rgb(112, 81, 69);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 23px;
+}
+.whatsapp{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 500px;
+    left: 1200px;
+    background-color: green;
+    border-radius: 50px;
+}
