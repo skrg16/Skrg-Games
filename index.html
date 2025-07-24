@@ -290,6 +290,15 @@
    <section id="contact">
     <h1>CONTACT</h1>
     <div class="cont">
+        
+    <form onsubmit="sendToWhatapp(); return false;">
+        <input type="text" placeholder="Your Name" name="Name">
+        <br>
+        <input type="email" placeholder="Your Email" name="email">
+        <br>
+        <textarea name="" id="" placeholder="Your Message" rows="5" name="textarea"></textarea>
+        <button type="submit" class="subbut">Send</button>
+    </form>
         <script>
     function sendToWhatsApp() {
       var Name = document.getElementById("Name").value;
@@ -306,14 +315,6 @@ document.getElementById("email").value;
 
       window.open(url, '_blank');
     }
-    <form onsubmit="sendToWhatapp(); return false;">
-        <input type="text" placeholder="Your Name" name="Name">
-        <br>
-        <input type="email" placeholder="Your Email" name="email">
-        <br>
-        <textarea name="" id="" placeholder="Your Message" rows="5" name="textarea"></textarea>
-        <button type="submit" class="subbut">Send</button>
-    </form>
     </div>
    </section> 
    <footer>
