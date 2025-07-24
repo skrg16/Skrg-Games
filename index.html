@@ -292,25 +292,26 @@
     <div class="cont">
         <script>
     function sendToWhatsApp() {
-      var name = document.getElementById("name").value;
-      var email = document.getElementById("email").value;
-      var message = document.getElementById("message").value;
+      var Name = document.getElementById("Name").value;
+      var email = 
+document.getElementById("email").value;
+      var message = document.getElementById("textarea").value;
 
+      // Replace with your WhatsApp number (use country code, no + or 0)
       var phoneNumber = "8432079716";
       
       var url = "https://wa.me/918432079716?text=" 
-          + encodeURIComponent("Hello, my name is " + name + ". " + message);
+          + encodeURIComponent("Hello, my name is: " + Name + ". " +"email:"+ email +","+message);
 
 
-      window.open(url, '_Self');
+      window.open(url, '_blank');
     }
-        </script>
     <form onsubmit="sendToWhatapp(); return false;">
-        <input type="text" placeholder="Your Name" name="name">
+        <input type="text" placeholder="Your Name" name="Name">
         <br>
         <input type="email" placeholder="Your Email" name="email">
         <br>
-        <textarea name="" id="" placeholder="Your Message" rows="5" name="message"></textarea>
+        <textarea name="" id="" placeholder="Your Message" rows="5" name="textarea"></textarea>
         <button type="submit" class="subbut">Send</button>
     </form>
     </div>
