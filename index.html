@@ -305,12 +305,12 @@
       window.open(url, '_Self');
     }
         </script>
-    <form onsubmit="sendToWhatapp()">
-        <input type="text" placeholder="Your Name">
+    <form onsubmit="sendToWhatapp(); return false;">
+        <input type="text" placeholder="Your Name" name="name">
         <br>
-        <input type="email" placeholder="Your Email">
+        <input type="email" placeholder="Your Email" name="email">
         <br>
-        <textarea name="" id="" placeholder="Your Message" rows="5"></textarea>
+        <textarea name="" id="" placeholder="Your Message" rows="5" name="message"></textarea>
         <button type="submit" class="subbut">Send</button>
     </form>
     </div>
