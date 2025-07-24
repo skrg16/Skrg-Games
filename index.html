@@ -259,28 +259,28 @@
               <a href="tel:+918432079716" class="aboutlk">
              <div class="divpic">
                 <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" alt="" style="width: 200px; height: 200px; border-top-left-radius: 10px; border-top-right-radius: 10px;" >
-                <h3>shreedhar</h3>
+                <h3>Shreekrishna</h3>
                 <p style="padding-left:10px ;">Founder & Tournament Lead</p>
              </div>
               </a>
               <a href="tel:+918432079716" class="aboutlk" >           
               <div class="divpic">
                 <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" alt="" style="width: 200px; height: 200px; border-top-left-radius: 10px; border-top-right-radius: 10px;" >
-                <h3>shreedhar</h3>
+                <h3>Shreekrishna</h3>
                 <p style="padding-left:30px ;">Community Manager</p>
               </div>
               </a>  
               <a href="tel:+918432079716" class="aboutlk">                  
               <div class="divpic">
                 <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" alt="" style="width: 200px; height: 200px; border-top-left-radius: 10px; border-top-right-radius: 10px;" >
-                <h3>shreedhar</h3>
+                <h3>Shreekrishna</h3>
                 <p style="padding-left:50px ;">Game Strategist</p>
               </div> 
               </a>
               <a href="tel:+918432079716" class="aboutlk">
               <div class="divpic">
                 <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/original/profile-icon-design-free-vector.jpg" alt="" style="width: 200px; height: 200px; border-top-left-radius: 10px; border-top-right-radius: 10px; " >
-                <h3>shreedhar</h3>
+                <h3>Shreekrishna</h3>
                 <p style="padding-left:10px ;">Media & Highlights Editor</p>
               </div>
               </a>
@@ -290,7 +290,22 @@
    <section id="contact">
     <h1>CONTACT</h1>
     <div class="cont">
-    <form action="">
+        <script>
+    function sendToWhatsApp() {
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+
+      var phoneNumber = "8432079716";
+      
+      var url = "https://wa.me/918432079716?text=" 
+          + encodeURIComponent("Hello, my name is " + name + ". " + message);
+
+
+      window.open(url, '_Self');
+    }
+        </script>
+    <form onsubmit="sendToWhatapp()">
         <input type="text" placeholder="Your Name">
         <br>
         <input type="email" placeholder="Your Email">
