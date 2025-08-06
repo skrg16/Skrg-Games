@@ -247,3 +247,143 @@ form {
     background-color: green;
     border-radius: 50px;
 }
+media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: center;
+  }
+
+  nav img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .na {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .div0 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .div1 {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 14px;
+  }
+
+  .tab {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divab, .cont, .imgab {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .aboutimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .divpic {
+    margin: 10px;
+  }
+
+  form, input, textarea {
+    width: 100%;
+  }
+
+  .subbut {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .vid video {
+    width: 100%;
+    height: auto;
+  }
+
+  .allvid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .bgvid {
+    width: 100%;
+    height: auto;
+  }
+
+  .but {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    font-size: 18px;
+  }
+
+  .whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    left: auto;
+    top: auto;
+    z-index: 999;
+  }
+
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  ul, li {
+    font-size: 14px;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 15px;
+  }
+}
